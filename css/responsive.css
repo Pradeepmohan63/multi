@@ -1,0 +1,181 @@
+	/* for phone */
+@media(max-width:767px){
+ .container{
+   width:100%;
+ }
+ 
+ .none{
+	 display:none;
+	
+ }
+ .col1-sd1{
+	 width:8.33%;
+	 padding:0 15px;
+ }
+ 
+ .col2-sd2{
+	 width:16.66%;
+	 padding:0 15px;
+ }
+ 
+ .col3-sd3{
+	 width:25%;
+	 padding:0 15px;
+ }
+ 
+ .col4-sd4{
+	 width:33.32%;
+	 padding:0 15px;
+ }
+ 
+ .col5-sd5{
+	 width:41.65%;
+	 padding:0 15px;
+ }
+ 
+ .col6-sd6{
+	 width:50%;
+	 padding:0 15px;
+ }
+ 
+ .col7-sd7{
+	 width:58.31%;
+	 padding:0 15px;
+ }
+ 
+ .col8-sd8{
+	 width:66.64%;
+	 padding:0 15px;
+ }
+ 
+ .col9-sd9{
+	 width:75%;
+	 padding:0 15px;
+ }
+ 
+ .col10-sd10{
+	 width:83.33%;
+	 padding:0 15px;
+ }
+ 
+ .col11-sd11{
+	 width:91.63%;
+	 padding:0 15px;
+ }
+ 
+ .col12-sd12{
+	 width:100%;
+	 padding:0 15px;
+ }
+ 
+ /* .col12-sd12{ */
+	 /* text-align:center; */
+/* } */
+
+.centre{
+	text-align:center;
+}
+.about h4::after{
+	 content:"";
+	 display:inline-block;
+	 position:absolute;
+	 width:99px;
+	 height:1px;
+	 background-color:orange;
+	 top:17px;
+	 left:11%;
+ }
+}
+
+
+
+	/* for tab */
+
+@media (min-width:768px) and (max-width:998px){
+ .container{
+   width:100%;
+ }
+ 
+  .none1{
+	 display:none;
+	 
+ }
+
+ .col1-md1{
+	 width:8.33%;
+	 padding:0 15px;
+ }
+ 
+ .col2-md2{
+	 width:16.66%;
+	 padding:0 15px;
+ }
+ 
+ .col3-md3{
+	 width:25%;
+	 padding:0 15px;
+ }
+ 
+ .col4-md4{
+	 width:33.32%;
+	 padding:0 15px;
+ }
+ 
+ .col5-md5{
+	 width:41.65%;
+	 padding:0 15px;
+ }
+ 
+ .col6-md6{
+	 width:50%;
+	 padding:0 15px;
+ }
+ 
+ .col7-md7{
+	 width:58.31%;
+	 padding:0 15px;
+ }
+ 
+ .col8-md8{
+	 width:66.64%;
+	 padding:0 15px;
+ }
+ 
+ .col9-md9{
+	 width:75%;
+	 padding:0 15px;
+ }
+ 
+ .col10-md10{
+	 width:83.33%;
+	 padding:0 15px;
+ }
+ 
+ .col11-md11{
+	 width:91.63%;
+	 padding:0 15px;
+ }
+ 
+ .col12-md12{
+	 width:100%;
+	 padding:0 15px;
+ }
+ 
+ .centre{
+	text-align:center;
+}
+
+.about h4::after{
+	 content:"";
+	 display:inline-block;
+	 position:absolute;
+	 width:99px;
+	 height:1px;
+	 background-color:orange;
+	 top:17px;
+	 left:11%;
+ }
+	 .box1{
+		 padding:9px 21px ;
+}
+ 
