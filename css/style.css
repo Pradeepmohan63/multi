@@ -169,8 +169,10 @@
  }
  
  #section2{
-	 position:relative;
+	 /* position:relative; */
+	 padding:10px 20px;
  }
+ 
  
  .list1 li{
 	 list-style:none;
@@ -199,13 +201,26 @@
  .box1{
 	 border:1px solid #ffffff;
 	 background-color:#ffffff;
-	 padding:19px 10px;
+	 padding:20px;
 	 margin-top:20px;
 	 box-shadow:0 0 10px #00000091;
 	
  }
 
+ .box1 h1{
+	font-size: 48px;
+    padding-left: 20px;
+	color: #243051;
+}
+
+ .box1 p{
+	 font-size: 17px;
+	 margin:10px 0;
+ }
  
+ .text{
+	 display:flex;
+ }
  
  .banner{
 	 display:flex;
@@ -217,11 +232,19 @@
  
  .box1 i{
 	 color:#ed502e;
+	 float: left;
+     font-size: 32px;
+	 padding-top: 10px;
+}
+ 
+ .box1 a{
+	 text-decoration:none;
+	 color:#33537a;
+	 font-weight: 600;
  }
  
- .para2 a{
-	 text-decoration:none;
-	 color:#164682;
+ .box1 span{
+	 font-weight: 600;
  }
  
  .about1{
@@ -233,7 +256,13 @@
  }
  .about h1{
 	 padding:10px 0;
-	 
+	 color: #243051;
+	 font-size: 35px;
+ }
+ 
+ .about h4{
+	 color:gray;
+	 position: relative;
  }
  
  .list1 li{
@@ -247,12 +276,13 @@
  .about h4::after{
 	 content:"";
 	 display:inline-block;
-	 position:absolute;
 	 width:99px;
-	 height:1px;
+	 height:2px;
 	 background-color:orange;
-	 top:17px;
-	 left:11%;
+	 position: absolute;
+     top: 6px;
+     left: 60px;
+	 
  }
 	 
 
@@ -260,3 +290,75 @@
 	margin-top:10px;
 }
  
+ .box1 a:hover{
+	 color:#33537a87;
+	 transition:all 0.5s ease;
+ }
+ 
+ 
+ /* section3 starts */
+ 
+ #section3{
+	 background-color:#b9cdd473;
+ }
+ 
+ #section3 .container{
+	width:100%
+	
+ }
+ 
+ .bg2 img{
+	 width:100%;
+	 height: 100vh;
+	
+ }
+ 
+ .content2{
+	 padding:41px;
+ }
+ 
+ .image1{
+	 padding:0 15px 0 0;
+ }
+ 
+ .heading2 h1{
+	 font-size:29px;
+	 color:#3e3e8e;
+ }
+ 
+ .heading2 span{
+	 font-weight:100;
+	 color:#34349f94;
+ }
+ 
+ .heading2 p{
+	 padding:15px 0;
+ }
+ 
+ .content{
+	 border:1px solid white;
+	 padding: 17px 0 17px 24px;
+	 background-color: white;
+	 margin-top: 10px;
+ }
+ 
+ .content h4{
+	 padding:10px 0;
+ }
+ 
+ .content span{
+	 color:orange;
+ }
+ 
+ .content h4:hover{
+	 color:orange;
+	 transition:all 0.5s ease;
+ }
+ 
+ 
+  /* section4 starts */
+  
+  .services {
+	  border:1px solid black;
+  }
+	  

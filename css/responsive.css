@@ -68,23 +68,11 @@
 	 padding:0 15px;
  }
  
- /* .col12-sd12{ */
-	 /* text-align:center; */
-/* } */
 
 .centre{
 	text-align:center;
 }
-.about h4::after{
-	 content:"";
-	 display:inline-block;
-	 position:absolute;
-	 width:99px;
-	 height:1px;
-	 background-color:orange;
-	 top:17px;
-	 left:11%;
- }
+
 }
 
 
@@ -165,17 +153,5 @@
 	text-align:center;
 }
 
-.about h4::after{
-	 content:"";
-	 display:inline-block;
-	 position:absolute;
-	 width:99px;
-	 height:1px;
-	 background-color:orange;
-	 top:17px;
-	 left:11%;
- }
-	 .box1{
-		 padding:9px 21px ;
 }
  
