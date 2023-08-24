@@ -73,19 +73,34 @@
 	text-align:center;
 }
 
-.name input{
+  .centre primary_btn{
+		text-align:end;
+}
+
+.form_input input{
 	 padding: 10px;
     width: 100%;
 	margin-top:10px;
  }
  
- .test{
+ .test_card{
 	     margin: 0 29px 30px;
  }
  
- .test img{
+ .test_card img{
 	 width:30%;
 	 left:-13%;
+}
+
+.footer_social_links {
+	margin-top: 22px;
+}
+
+.footer_nav_links {
+	margin-top: 22px;
+}
+.footer_subscription{
+	margin-top: 22px;
 }
 }
 
@@ -99,7 +114,7 @@
    width:100%;
  }
  
-  .none1{
+  .none{
 	 display:none;
 	 
  }
@@ -168,18 +183,29 @@
 	text-align:center;
 }
 
-.test{
+ .get{
+		text-align:end;
+}
+	
+.test_card{
 	     margin: 0 68px 30px;
  }
  
 
-.test img{
+.test_card img{
 	 width: 14%;
 	 left:-7%;
 }
 
-.social{
-	margin-bottom: 24px;
+.footer_social_links {
+	margin-top: 22px;
+}
+
+.footer_nav_links {
+	margin-top: 22px;
+}
+.footer_subscription{
+	margin-top: 22px;
 }
 
 }
