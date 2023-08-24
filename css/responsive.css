@@ -92,6 +92,10 @@
 	 left:-13%;
 }
 
+.accordian_section {
+    padding: 8px;
+}
+
 .footer_social_links {
 	margin-top: 22px;
 }
