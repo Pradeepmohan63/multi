@@ -73,8 +73,16 @@
 	text-align:center;
 }
 
-  .centre primary_btn{
+  #banner{
+	  height:500px;
+  }
+  
+  .get{
 		text-align:end;
+}
+
+.form_input{
+	margin-top: 17px;
 }
 
 .form_input input{
@@ -106,6 +114,14 @@
 .footer_subscription{
 	margin-top: 22px;
 }
+.copyright_section{
+    font-size: 13px;
+}
+
+  button{
+	padding: 11px 18px;
+}
+		
 }
 
 
@@ -187,6 +203,10 @@
 	text-align:center;
 }
 
+	#banner{
+	  height:550px;
+  }
+  
  .get{
 		text-align:end;
 }

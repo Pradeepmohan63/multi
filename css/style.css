@@ -99,7 +99,7 @@
 	 display:flex;
 	 flex-wrap:wrap;
 	 justify-content: end;
-     gap: 34px;
+     gap: 24px;
 	 
  }
  
@@ -124,7 +124,6 @@
 	 border-radius:5px;
 	 color:white;
 	 padding: 10px 20px;
-	 display: inline-block;
  }
  
  .nav_home a{
@@ -480,7 +479,6 @@
  .accordian_listcontent{
 	 height:0px;
 	 overflow:hidden;
-	 transition:0.5s;
  }
 
  .accordian_content:hover .accordian_listcontent{
@@ -653,7 +651,7 @@
   
 		/* portfoliosection starts */
  #portfolio{
-	     padding: 36px 0;
+	     padding: 40px 0 60px;
  }
  
  .portfolio_nav_list{
@@ -777,7 +775,7 @@
 	  top:70%;
 	  z-index:2;
 	  color:white;
-	  bottom:20px;
+	  bottom:30px;
   }
   
   .teams_details h3{
@@ -802,18 +800,20 @@
 	  top:1px;
 	  background-color:#233751;
 	  z-index:3;
+	  transform:translateX(0px);
+	   transition:0.5s;
   }
   
   .teams_card:hover .teams_details{
 	  opacity:1;
-	  bottom:30px;
+
 	  transition:0.5s;
   }
   
   .teams_card:hover .teams_social_links{
 	  opacity:1;
 	  left:0px;
-	
+
   }
   
   .teams_card_content{
@@ -825,6 +825,8 @@
 	  background:linear-gradient(164deg,#3330,#233751a8 50%,#233751 75%,#233751fc 75%);
 	  z-index:1;
 	  opacity:0;
+	  transform:translateY(0px);
+	   transition:0.5s;
   }
   
   .teams_card:hover .teams_card_content{
@@ -885,7 +887,7 @@
  }
  
  
-		/* section10 starts */
+		/* sec starts */
 		
  #contact{
 	background-color: #f6f9fd;
@@ -1023,12 +1025,10 @@
  #footer{
 	 background-color:#071527;
 	 font-size:14px;
+	 padding: 40px 0 60px;
  }
  
- #footer .container{
-	 padding: 40px 0;
- }
- 
+
  .footer_socail_links h3{
 	 font-family: "Raleway", sans-serif;
  }
