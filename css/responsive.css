@@ -81,6 +81,10 @@
 		text-align:end;
 }
 
+ .title h1{
+	 font-size:30px;
+ }
+ 
 .form_input{
 	margin-top: 17px;
 }
@@ -112,7 +116,9 @@
 .copyright_section{
     font-size: 13px;
 }
-
+ .accordian_content:hover .accordian_listcontent{
+	 height:auto;
+ }
 		
 }
 

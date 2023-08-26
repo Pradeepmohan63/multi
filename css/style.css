@@ -197,7 +197,7 @@
 	/* banner section starts */
  #banner{
 	  background:linear-gradient(#1411116b,#322d2b7a),url("../images/office.jpg");
-	  height:100vh;
+	  height:600px;
 	  background-size:cover;
 	 background-position:center;
 	  display:flex;
@@ -246,6 +246,7 @@
  .title{
 	 padding:20px 0;
  }
+ 
  
  .about_list{
 	 padding: 10px 0;
@@ -329,8 +330,12 @@
  
  .about_section p{
     font-family: "Open Sans", sans-serif;
+	padding-bottom: 10px;
  }
 
+ .about_content {
+    padding-top: 20px;
+}
  
  .about_content a{
 	 font-family: "Open Sans", sans-serif;
@@ -374,7 +379,7 @@
   
  .about_card p{
 	 font-family: "Raleway", sans-serif;
-	 
+	 line-height: 1.7;
  }
 
 
@@ -483,7 +488,7 @@
 
  .accordian_content:hover .accordian_listcontent{
 	 height:100px;
-	 transition:0.5s;
+	 transition:all 0.5s ease;
  }
  
   /* services section starts */
@@ -509,7 +514,7 @@
 }
  
  .services_content h1{
-	 padding: 29px;
+	 padding: 29px 29px 14px;
 	 font-family: "Raleway", sans-serif;
  }
  
@@ -540,7 +545,7 @@
 		/* testimonials section starts */
 		
  #testimonials{
-	  padding: 40px 0 60 px;
+	  padding: 40px 0 60px;
 	background-color: #f6f9fd;
 	margin-top:10px;
 	
@@ -589,7 +594,7 @@
  
 .test_card p{
 	padding: 16px 0;
-    line-height: 19px;
+    line-height: 1.7;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -776,6 +781,7 @@
 	  z-index:2;
 	  color:white;
 	  bottom:30px;
+	  transform:translateY(40px);
   }
   
   .teams_details h3{
@@ -800,20 +806,20 @@
 	  top:1px;
 	  background-color:#233751;
 	  z-index:3;
-	  transform:translateX(0px);
+	  transform:translateX(-40px);
 	   transition:0.5s;
   }
   
   .teams_card:hover .teams_details{
 	  opacity:1;
-
+	transform:translateY(0);
 	  transition:0.5s;
   }
   
   .teams_card:hover .teams_social_links{
 	  opacity:1;
 	  left:0px;
-
+	transform:translateX(0);
   }
   
   .teams_card_content{
@@ -859,6 +865,7 @@
   
   .faq_qus{
 	  display:flex;
+	 margin-bottom: 10px;
   }
   
  
@@ -1071,6 +1078,7 @@
  .footer_nav_links h3{
 	 color:white;
 	 font-family: "Raleway", sans-serif;
+	 margin-bottom: 11px;
  }
  
   .footer_nav_links li{
@@ -1104,6 +1112,7 @@
  
  .footer_subscription p{
 	 font-family: "Open Sans", sans-serif;
+	 line-height: 1.7;
  }
  
  .footer_form{
@@ -1111,9 +1120,10 @@
  }
  
  .footer_form input{
-	 padding: 11px 11px;
+	padding: 11px 15px;
+    padding-right: 140px;
 	 border-radius: 6px 0 0 6px;
-	 outline:0;
+	 outline:none;
 	 width:99%;	
  }
  
@@ -1122,12 +1132,14 @@
  }
 		
  button{
-    background-color: #ed502e;
+	background-color: #ed502e;
     color: white;
-    padding: 11px 36px;
+    padding: 12px 36px;
     border-radius: 0 6px 6px 0;
     position: absolute;
-    right:0;
+    right: 0;
+    border: none;
+    top: 3%;
 }
  
  .copyright_section{
